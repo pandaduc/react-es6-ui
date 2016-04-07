@@ -2,8 +2,12 @@
   "name": "react-es6-webpack-boilerplate",
   "version": "0.0.1",
   "description": "Simple boilerplate to start ReactJS project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandaduc/react-es6-webpack-boilerplate.git"
+  },
   "scripts": {
-    "start": "webpack-dev-server --watch-poll --inline --hot",
+    "start": "webpack-dev-server --watch-poll --inline",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
